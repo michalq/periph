@@ -1,3 +1,6 @@
+# Fork notice
+This is for from google/periph it adds checking for allwiner/a64 processor on nanopi a64 for string sun50i-a64. 
+
 # periph - Peripherals I/O in Go
 
 [![mascot](https://raw.githubusercontent.com/periph/website/master/site/static/img/periph-mascot-280.png)](https://periph.io/)

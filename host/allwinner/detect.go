@@ -7,7 +7,6 @@ package allwinner
 import (
 	"strings"
 	"sync"
-
 	"periph.io/x/periph/host/distro"
 )
 
@@ -69,7 +68,7 @@ func (d *detectionS) do() {
 		d.done = true
 		if isArm {
 			for _, c := range distro.DTCompatible() {
-				if strings.Contains(c, "sun50iw1p1") {
+				if strings.Contains(c, "sun50iw1p1") || strings.Contains(c, "sun50i-a64") {
 					d.isA64 = true
 				}
 				if strings.Contains(c, "sun5i-r8") {
