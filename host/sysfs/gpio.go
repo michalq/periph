@@ -14,13 +14,13 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/host/fs"
+	"github.com/michalq/periph"
+	"github.com/michalq/periph/conn"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/gpio/gpioreg"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/pin"
+	"github.com/michalq/periph/host/fs"
 )
 
 // Pins is all the pins exported by GPIO sysfs.

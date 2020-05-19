@@ -7,10 +7,10 @@ package pca9685
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/gpio/gpioreg"
+	"github.com/michalq/periph/conn/i2c/i2ctest"
+	"github.com/michalq/periph/conn/physic"
 )
 
 func initializationSequence() []i2ctest.IO {

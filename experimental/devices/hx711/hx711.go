@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/experimental/conn/analog"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/pin"
+	"github.com/michalq/periph/experimental/conn/analog"
 )
 
 var (

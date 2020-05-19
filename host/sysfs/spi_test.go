@@ -9,10 +9,10 @@ import (
 	"io"
 	"testing"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/michalq/periph/conn"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/spi"
 )
 
 func TestNewSPI(t *testing.T) {

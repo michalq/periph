@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"log"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/experimental/devices/ads1x15"
-	"periph.io/x/periph/host"
+	"github.com/michalq/periph/conn/i2c/i2creg"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/experimental/devices/ads1x15"
+	"github.com/michalq/periph/host"
 )
 
 // Resistor values for voltage divider. ADC measures between r2 and ground.

@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/experimental/devices/nrzled"
-	"periph.io/x/periph/host"
+	"github.com/michalq/periph/conn/display"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/gpio/gpioreg"
+	"github.com/michalq/periph/conn/gpio/gpiostream"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/spi"
+	"github.com/michalq/periph/conn/spi/spireg"
+	"github.com/michalq/periph/experimental/devices/nrzled"
+	"github.com/michalq/periph/host"
 )
 
 func access(name string) bool {

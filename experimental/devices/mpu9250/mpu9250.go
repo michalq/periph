@@ -15,7 +15,7 @@ import (
 	"math"
 	"time"
 
-	"periph.io/x/periph/experimental/devices/mpu9250/reg"
+	"github.com/michalq/periph/experimental/devices/mpu9250/reg"
 )
 
 const (

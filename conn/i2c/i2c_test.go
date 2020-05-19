@@ -9,8 +9,8 @@ import (
 	"errors"
 	"testing"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/physic"
+	"github.com/michalq/periph/conn"
+	"github.com/michalq/periph/conn/physic"
 )
 
 func TestDevString(t *testing.T) {

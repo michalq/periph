@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"sync"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/mmr"
-	"periph.io/x/periph/conn/physic"
+	"github.com/michalq/periph/conn/i2c"
+	"github.com/michalq/periph/conn/mmr"
+	"github.com/michalq/periph/conn/physic"
 )
 
 // Opts holds the configuration options.

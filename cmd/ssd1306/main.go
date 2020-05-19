@@ -23,16 +23,16 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/devices/ssd1306"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
+	"github.com/michalq/periph/conn/display"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/gpio/gpioreg"
+	"github.com/michalq/periph/conn/i2c"
+	"github.com/michalq/periph/conn/i2c/i2creg"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/spi"
+	"github.com/michalq/periph/conn/spi/spireg"
+	"github.com/michalq/periph/devices/ssd1306"
+	"github.com/michalq/periph/devices/ssd1306/image1bit"
 )
 
 func access(name string) bool {

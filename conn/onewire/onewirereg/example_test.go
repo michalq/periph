@@ -9,9 +9,9 @@ import (
 	"log"
 	"strings"
 
-	"periph.io/x/periph/conn/onewire"
-	"periph.io/x/periph/conn/onewire/onewirereg"
-	"periph.io/x/periph/host"
+	"github.com/michalq/periph/conn/onewire"
+	"github.com/michalq/periph/conn/onewire/onewirereg"
+	"github.com/michalq/periph/host"
 )
 
 func ExampleAll() {

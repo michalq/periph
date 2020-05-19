@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"periph.io/x/periph/conn/i2c/i2ctest"
+	"github.com/michalq/periph/conn/i2c/i2ctest"
 )
 
 func setup() *i2ctest.Record {

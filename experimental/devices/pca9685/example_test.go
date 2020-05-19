@@ -7,10 +7,10 @@ package pca9685_test
 import (
 	"log"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/experimental/devices/pca9685"
-	"periph.io/x/periph/host"
+	"github.com/michalq/periph/conn/i2c/i2creg"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/experimental/devices/pca9685"
+	"github.com/michalq/periph/host"
 )
 
 func Example() {

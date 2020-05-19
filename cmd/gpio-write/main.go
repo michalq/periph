@@ -13,8 +13,8 @@ import (
 	"log"
 	"os"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/gpio/gpioreg"
 )
 
 func mainImpl() error {

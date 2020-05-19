@@ -8,7 +8,7 @@ package main
 
 import (
 	"periph.io/x/extra/hostextra"
-	"periph.io/x/periph"
+	"github.com/michalq/periph"
 )
 
 func hostInit() (*periph.State, error) {

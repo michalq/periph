@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"periph.io/x/periph"
+	"github.com/michalq/periph"
 )
 
 const cacheControlNone = "Cache-Control:no-cache,private"

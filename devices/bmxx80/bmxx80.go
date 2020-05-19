@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/mmr"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/michalq/periph/conn"
+	"github.com/michalq/periph/conn/i2c"
+	"github.com/michalq/periph/conn/mmr"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/spi"
 )
 
 // Oversampling affects how much time is taken to measure each of temperature,

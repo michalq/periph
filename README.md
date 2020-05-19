@@ -27,9 +27,9 @@ package main
 
 import (
     "time"
-    "periph.io/x/periph/conn/gpio"
-    "periph.io/x/periph/host"
-    "periph.io/x/periph/host/rpi"
+    "github.com/michalq/periph/conn/gpio"
+    "github.com/michalq/periph/host"
+    "github.com/michalq/periph/host/rpi"
 )
 
 func main() {

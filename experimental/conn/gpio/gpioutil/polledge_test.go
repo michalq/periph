@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiotest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/gpio/gpiotest"
+	"github.com/michalq/periph/conn/physic"
 )
 
 func TestAssumption(t *testing.T) {

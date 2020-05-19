@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/experimental/conn/analog"
+	"github.com/michalq/periph/conn/i2c/i2ctest"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/pin"
+	"github.com/michalq/periph/experimental/conn/analog"
 )
 
 func TestChannel_String(t *testing.T) {

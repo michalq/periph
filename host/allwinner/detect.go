@@ -7,7 +7,7 @@ package allwinner
 import (
 	"strings"
 	"sync"
-	"periph.io/x/periph/host/distro"
+	"github.com/michalq/periph/host/distro"
 )
 
 // Present detects whether the host CPU is an Allwinner CPU.

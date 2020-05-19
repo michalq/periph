@@ -13,7 +13,7 @@ import (
 	"log"
 	"os"
 
-	"periph.io/x/periph"
+	"github.com/michalq/periph"
 )
 
 func printDrivers(drivers []periph.DriverFailure) {

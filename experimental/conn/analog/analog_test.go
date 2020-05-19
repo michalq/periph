@@ -7,7 +7,7 @@ package analog
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/pin"
+	"github.com/michalq/periph/conn/pin"
 )
 
 func TestINVALID(t *testing.T) {

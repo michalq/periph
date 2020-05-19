@@ -27,8 +27,8 @@ package onewire
 import (
 	"strconv"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
+	"github.com/michalq/periph/conn"
+	"github.com/michalq/periph/conn/gpio"
 )
 
 // Bus defines the function a concrete driver for a 1-wire bus must implement.

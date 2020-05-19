@@ -7,8 +7,8 @@ package gpioutil
 import (
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
+	"github.com/michalq/periph/conn/gpio"
+	"github.com/michalq/periph/conn/physic"
 )
 
 // pollEdge is a gpio.PinIO where edge detection is done manually.

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"log"
 
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/host"
-	"periph.io/x/periph/host/bcm283x"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/host"
+	"github.com/michalq/periph/host/bcm283x"
 )
 
 func ExamplePinsRead0To31() {

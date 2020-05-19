@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/devices/apa102"
+	"github.com/michalq/periph/conn/display"
+	"github.com/michalq/periph/conn/physic"
+	"github.com/michalq/periph/conn/spi"
+	"github.com/michalq/periph/conn/spi/spireg"
+	"github.com/michalq/periph/devices/apa102"
 )
 
 func access(name string) bool {
